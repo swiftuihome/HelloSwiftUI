@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0450132AFFA1D300A85BE1 /* EyeLoadingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0450122AFFA1D300A85BE1 /* EyeLoadingAnimationView.swift */; };
 		2B62E2782AFF6D50002981AD /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B62E2772AFF6D50002981AD /* HelloSwiftUIApp.swift */; };
 		2B62E27A2AFF6D50002981AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B62E2792AFF6D50002981AD /* ContentView.swift */; };
 		2B62E27C2AFF6D51002981AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B62E27B2AFF6D51002981AD /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B0450122AFFA1D300A85BE1 /* EyeLoadingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeLoadingAnimationView.swift; sourceTree = "<group>"; };
 		2B62E2742AFF6D50002981AD /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B62E2772AFF6D50002981AD /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		2B62E2792AFF6D50002981AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0450112AFFA1B500A85BE1 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				2B0450122AFFA1D300A85BE1 /* EyeLoadingAnimationView.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		2B0450142AFFA24B00A85BE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B0450112AFFA1B500A85BE1 /* Animation */,
+				2B62E2792AFF6D50002981AD /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2B62E26B2AFF6D50002981AD = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +70,8 @@
 		2B62E2762AFF6D50002981AD /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				2B0450142AFFA24B00A85BE1 /* View */,
 				2B62E2772AFF6D50002981AD /* HelloSwiftUIApp.swift */,
-				2B62E2792AFF6D50002981AD /* ContentView.swift */,
 				2B62E27B2AFF6D51002981AD /* Assets.xcassets */,
 				2B62E27D2AFF6D51002981AD /* Preview Content */,
 			);
@@ -139,6 +158,7 @@
 			files = (
 				2B62E27A2AFF6D50002981AD /* ContentView.swift in Sources */,
 				2B62E2782AFF6D50002981AD /* HelloSwiftUIApp.swift in Sources */,
+				2B0450132AFFA1D300A85BE1 /* EyeLoadingAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
